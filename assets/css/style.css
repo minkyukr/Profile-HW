@@ -97,19 +97,21 @@ hr {
 
 .portfolio-list {
     display: flex;
-    width: 50%;
-    height: 80%;;
-    margin: auto;
-    justify-content: space-around;
+    width: 80%;
+    height: 80%;
+    margin-top: 20px;
+    margin-left: 90px;
     flex-direction: column;
-    line-height: 80%;
-    border-style: dotted;
+    flex-wrap: wrap;
 }
 
 .project {
-    flex-wrap: inherit;
     text-align: center;
-    border-style: dotted;
-    width: 100%;
-    height: 100%;
+    width: 15%;
+    height: 50%;
+}
+
+.kingkong {
+    width: 90%;
+    height: 90%;
 }
