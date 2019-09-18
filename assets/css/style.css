@@ -12,7 +12,7 @@
     margin: auto;
 }
 
-#michel-kong {
+.michel-kong {
     width: 20%;
     font-size: 50px;
     background: #1BA9A0;
@@ -29,20 +29,15 @@
     flex-direction: row;
     justify-content: space-evenly;
     margin-right: 440px;
+    margin-top: 30px;
 }
 
-#about, #portfolio, #contact {
-    height: 60%;
-    margin-top: 0; 
-    padding-top: 40px;
-}
-
-#below-header {
+.below-header {
     width: 100%;
     margin-top: 0;
 }
 
-.main-bio-container {
+.main-container {
     width: 50%;
     height: 50%;
     margin: auto;
@@ -54,7 +49,7 @@
     display: relative;
  }
 
-#about-me {
+.info {
     font-size: 35px;
     padding-left: 50px;
     margin-top: 10px;
@@ -72,13 +67,13 @@ hr {
     display: flex;
 }
 
-#profile-pic {
+.profile-pic {
     width: 30%;
     padding-left: 50px;
     margin-top: 15px;
 }
 
-#bio {
+.bio {
     width: 80%;
     font-size: 20px;
     padding-left: 50px;
@@ -95,7 +90,26 @@ hr {
     background: #686868;
 }
 
-#color-line {
+.color-line {
     background: #1BA9A0;
     height: .5rem;
+}
+
+.portfolio-list {
+    display: flex;
+    width: 50%;
+    height: 80%;;
+    margin: auto;
+    justify-content: space-around;
+    flex-direction: column;
+    line-height: 80%;
+    border-style: dotted;
+}
+
+.project {
+    flex-wrap: inherit;
+    text-align: center;
+    border-style: dotted;
+    width: 100%;
+    height: 100%;
 }
