@@ -2,7 +2,6 @@
     font-family: 'Abel';
 }
 
-
 .navigation {
     font-size: 30px;
     display: flex;
@@ -31,7 +30,7 @@
 }
 
 .below-header {
-    width: 100%;
+    width: 950px;
     margin-top: 0;
 }
 
@@ -77,12 +76,11 @@ hr {
     padding-left: 50px;
     padding-right: 50px;
     padding-top: 70px;
-    border-style: dotted;
 }
 
 .footer {
     position: absolute;
-    width: 100%;
+    width: 950px;
     bottom: 0;
     height: 6rem;
     text-align: center;
@@ -114,7 +112,6 @@ hr {
     border-style: solid;
     border-width: thin;
     padding-top: 10px;
-    border-style: dotted;
 }
 
 .kingkong {
