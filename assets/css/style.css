@@ -30,7 +30,7 @@
 }
 
 .below-header {
-    width: 950px;
+    width: 100%;
     margin-top: 0;
 }
 
@@ -80,16 +80,19 @@ hr {
 
 .footer {
     position: absolute;
-    width: 950px;
+    margin: auto;
+    width: 100%;
     bottom: 0;
-    height: 6rem;
+    right: 0;
+    left: 0;
+    height: 100px;
     text-align: center;
     background: #686868;
 }
 
 .color-line {
     background: #1BA9A0;
-    height: .5rem;
+    height: 10px;
 }
 
 .portfolio-list {
